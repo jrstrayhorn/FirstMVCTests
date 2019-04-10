@@ -13,7 +13,7 @@ namespace FirstMVCTests.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult About(string name = default(string))
         {
             ViewBag.Message = "Your application description page.";
 
